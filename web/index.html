@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metro Mapper</title>
+    <style>
+        canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        html, body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        var Module = {
+            canvas: document.getElementById('canvas'),
+        };
+    </script>
+    <script src="metro_mapper.js"></script>
+</body>
+</html>
